@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+/* Title */
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+/* Glass Cards */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+/* Title */
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+/* Glass Cards */
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 20px auto;
+    width: 70%;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+
+/* Skills badges */
+.skills span {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Links */
+a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffd700;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+
+/* Skills badges */
+.skills span {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Links */
+a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ffd700;
+}

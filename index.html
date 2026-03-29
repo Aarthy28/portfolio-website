@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aarthy Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1 id="typing"></h1>
+    <p class="tagline">ECE Graduate | AI & Data Web App Developer | Python Developer</p>
+
+    <!-- About -->
+    <div class="card">
+        <h2>🌟 About Me</h2>
+        <p>
+            I am passionate about building AI-based applications and solving real-world problems 
+            using data. I enjoy learning new technologies and creating impactful tools.
+        </p>
+    </div>
+
+    <!-- Skills -->
+    <div class="card">
+        <h2>🛠 Skills</h2>
+        <div class="skills">
+            <span>Python</span>
+            <span>Data Analysis</span>
+            <span>AI Tools</span>
+            <span>Streamlit</span>
+            <span>GitHub</span>
+            <span>MS Office</span>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="card">
+        <h2>🚀 Projects</h2>
+
+       <p><strong>📊 Job Market Analyzer</strong><br>
+Analyzed job dataset using Python and visualized trends.<br>
+<a href="https://github.com/Aarthy28/job-market-analyzer" target="_blank">
+    💻 View Project Code
+</a></p>
+
+        <p><strong>🤖 AI Resume Analyzer</strong><br>
+        <a href="https://qevjr5docevv6bvceufyv9.streamlit.app/" target="_blank">
+            🌐 View Live App
+        </a></p>
+    </div>
+
+    <!-- Links -->
+    <div class="card">
+        <h2>🔗 Connect</h2>
+        <p>
+            <a href="https://github.com/Aarthy28" target="_blank">💻 GitHub</a><br><br>
+            <a href="https://www.linkedin.com/in/aarthyv289" target="_blank">🔗 LinkedIn</a>
+        </p>
+    </div>
+
+    <!-- Contact -->
+    <div class="card">
+        <h2>📞 Contact</h2>
+        <p>Email: aarthymalar312@gmail.com</p>
+        <p>Phone: 6382963622</p>
+    </div>
+
+</div>
+
+<!-- Typing Animation -->
+<script>
+const text = "Hi, I'm Aarthy V 👩‍💻";
+let i = 0;
+
+function typeEffect() {
+    if (i < text.length) {
+        document.getElementById("typing").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeEffect, 50);
+    }
+}
+typeEffect();
+</script>
+
+</body>
+</html>
